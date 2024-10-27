@@ -51,20 +51,12 @@ namespace CalculadoraPrecioInmueble
 
     public class Calculadora
     {
-        public double AreaTerreno { get; set; }
-        public double CostoPorMetroCuadrado { get; set; }
-        public double CostoInfraestructura { get; set; }
+        private double AreaTerreno { get; set; }
+        private double CostoPorMetroCuadrado { get; set; }
+        private double CostoInfraestructura { get; set; }
         public double PorcentajeGanancia
         {
             get { return _porcentajeGanancia; }
-            set
-            {
-                if (value <= 0)
-                {
-                    throw new ArgumentException("El porcentaje de ganancia debe ser positivo.");
-                }
-                _porcentajeGanancia = value;
-            }
         }
         private double _porcentajeGanancia;
 

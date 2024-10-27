@@ -12,3 +12,7 @@ C:\Users\jonat\OneDrive\Desktop\sena\4-trimestre-main\4-trimestre-main\5 trimest
 C:\Users\jonat\OneDrive\Desktop\sena\4-trimestre-main\4-trimestre-main\5 trimestre\Ejercicio01_05 Ejercicio POO\CalculadoraPrecioInmueble\CalculadoraPrecioInmueble\obj\Debug\CalculadoraPrecioInmueble.exe
 C:\Users\jonat\OneDrive\Desktop\sena\4-trimestre-main\4-trimestre-main\5 trimestre\Ejercicio01_05 Ejercicio POO\CalculadoraPrecioInmueble\CalculadoraPrecioInmueble\obj\Debug\CalculadoraPrecioInmueble.pdb
 C:\Users\jonat\OneDrive\Desktop\sena\4-trimestre-main\4-trimestre-main\5 trimestre\Ejercicio01_05 Ejercicio POO\CalculadoraPrecioInmueble\CalculadoraPrecioInmueble\bin\Debug\CalculadoraPrecioInmueble.pdb
+C:\Users\Adminsena\Desktop\C-\Ejercicios del tecnologo\Ejercicio01_05 Ejercicio POO\CalculadoraPrecioInmueble\CalculadoraPrecioInmueble\obj\Debug\CalculadoraPrecioInmueble.csproj.AssemblyReference.cache
+C:\Users\Adminsena\Desktop\C-\Ejercicios del tecnologo\Ejercicio01_05 Ejercicio POO\CalculadoraPrecioInmueble\CalculadoraPrecioInmueble\obj\Debug\CalculadoraPrecioInmueble.csproj.CoreCompileInputs.cache
+C:\Users\Adminsena\Desktop\C-\Ejercicios del tecnologo\Ejercicio01_05 Ejercicio POO\CalculadoraPrecioInmueble\CalculadoraPrecioInmueble\obj\Debug\CalculadoraPrecioInmueble.exe
+C:\Users\Adminsena\Desktop\C-\Ejercicios del tecnologo\Ejercicio01_05 Ejercicio POO\CalculadoraPrecioInmueble\CalculadoraPrecioInmueble\obj\Debug\CalculadoraPrecioInmueble.pdb

@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jonat\\OneDrive\\Desktop\\campeonato\\ConsoleAppNominaoo03\\",
+  "WorkspaceRootPath": "C:\\Users\\Adminsena\\Desktop\\C-\\Ejercicios del tecnologo\\ConsoleAppNominaoo03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EBBACD1-CBC1-463F-8282-0D37EC74314D}|ConsoleAppNominaoo03\\ConsoleAppNominaoo03.csproj|c:\\users\\jonat\\onedrive\\desktop\\campeonato\\consoleappnominaoo03\\consoleappnominaoo03\\nomina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EBBACD1-CBC1-463F-8282-0D37EC74314D}|ConsoleAppNominaoo03\\ConsoleAppNominaoo03.csproj|solutionrelative:consoleappnominaoo03\\nomina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Adminsena\\Desktop\\C-\\Ejercicios del tecnologo\\ConsoleAppNominaoo03\\ConsoleAppNominaoo03\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleAppNominaoo03\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EBBACD1-CBC1-463F-8282-0D37EC74314D}|ConsoleAppNominaoo03\\ConsoleAppNominaoo03.csproj|c:\\users\\jonat\\onedrive\\desktop\\campeonato\\consoleappnominaoo03\\consoleappnominaoo03\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EBBACD1-CBC1-463F-8282-0D37EC74314D}|ConsoleAppNominaoo03\\ConsoleAppNominaoo03.csproj|solutionrelative:consoleappnominaoo03\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Adminsena\\Desktop\\C-\\Ejercicios del tecnologo\\ConsoleAppNominaoo03\\ConsoleAppNominaoo03\\Nomina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConsoleAppNominaoo03\\Nomina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\campeonato\\ConsoleAppNominaoo03\\ConsoleAppNominaoo03\\Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Adminsena\\Desktop\\C-\\Ejercicios del tecnologo\\ConsoleAppNominaoo03\\ConsoleAppNominaoo03\\Empleado.cs",
               "RelativeDocumentMoniker": "ConsoleAppNominaoo03\\Empleado.cs",
-              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Desktop\\campeonato\\ConsoleAppNominaoo03\\ConsoleAppNominaoo03\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Adminsena\\Desktop\\C-\\Ejercicios del tecnologo\\ConsoleAppNominaoo03\\ConsoleAppNominaoo03\\Empleado.cs",
               "RelativeToolTip": "ConsoleAppNominaoo03\\Empleado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T06:17:22.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Nomina.cs",
-              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\campeonato\\ConsoleAppNominaoo03\\ConsoleAppNominaoo03\\Nomina.cs",
+              "DocumentMoniker": "C:\\Users\\Adminsena\\Desktop\\C-\\Ejercicios del tecnologo\\ConsoleAppNominaoo03\\ConsoleAppNominaoo03\\Nomina.cs",
               "RelativeDocumentMoniker": "ConsoleAppNominaoo03\\Nomina.cs",
-              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Desktop\\campeonato\\ConsoleAppNominaoo03\\ConsoleAppNominaoo03\\Nomina.cs",
+              "ToolTip": "C:\\Users\\Adminsena\\Desktop\\C-\\Ejercicios del tecnologo\\ConsoleAppNominaoo03\\ConsoleAppNominaoo03\\Nomina.cs",
               "RelativeToolTip": "ConsoleAppNominaoo03\\Nomina.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAwD0AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwD0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T06:08:03.723Z",
               "EditorCaption": ""

@@ -1,0 +1,7 @@
+C:\Users\Adminsena\Desktop\C-\Ejercicios del tecnologo\Ejercicio01_05 poo03\Ejercicio01_05 poo03\bin\Debug\Ejercicio01_05 poo03.exe.config
+C:\Users\Adminsena\Desktop\C-\Ejercicios del tecnologo\Ejercicio01_05 poo03\Ejercicio01_05 poo03\bin\Debug\Ejercicio01_05 poo03.exe
+C:\Users\Adminsena\Desktop\C-\Ejercicios del tecnologo\Ejercicio01_05 poo03\Ejercicio01_05 poo03\bin\Debug\Ejercicio01_05 poo03.pdb
+C:\Users\Adminsena\Desktop\C-\Ejercicios del tecnologo\Ejercicio01_05 poo03\Ejercicio01_05 poo03\obj\Debug\Ejercicio01_05 poo03.csproj.AssemblyReference.cache
+C:\Users\Adminsena\Desktop\C-\Ejercicios del tecnologo\Ejercicio01_05 poo03\Ejercicio01_05 poo03\obj\Debug\Ejercicio01_05 poo03.csproj.CoreCompileInputs.cache
+C:\Users\Adminsena\Desktop\C-\Ejercicios del tecnologo\Ejercicio01_05 poo03\Ejercicio01_05 poo03\obj\Debug\Ejercicio01_05 poo03.exe
+C:\Users\Adminsena\Desktop\C-\Ejercicios del tecnologo\Ejercicio01_05 poo03\Ejercicio01_05 poo03\obj\Debug\Ejercicio01_05 poo03.pdb
