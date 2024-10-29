@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\CLASE\\ConsoleAppNominaoo02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E29822-71A0-4C35-93CF-3244D57143E9}|ConsoleAppNominaoo02\\ConsoleAppNominaoo02.csproj|c:\\users\\jonat\\onedrive\\desktop\\c-\\ejercicios del tecnologo\\clase\\consoleappnominaoo02\\consoleappnominaoo02\\nomina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E29822-71A0-4C35-93CF-3244D57143E9}|ConsoleAppNominaoo02\\ConsoleAppNominaoo02.csproj|solutionrelative:consoleappnominaoo02\\nomina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E29822-71A0-4C35-93CF-3244D57143E9}|ConsoleAppNominaoo02\\ConsoleAppNominaoo02.csproj|c:\\users\\jonat\\onedrive\\desktop\\c-\\ejercicios del tecnologo\\clase\\consoleappnominaoo02\\consoleappnominaoo02\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E29822-71A0-4C35-93CF-3244D57143E9}|ConsoleAppNominaoo02\\ConsoleAppNominaoo02.csproj|solutionrelative:consoleappnominaoo02\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\CLASE\\ConsoleAppNominaoo02\\ConsoleAppNominaoo02\\Empleado.cs",
+              "RelativeDocumentMoniker": "ConsoleAppNominaoo02\\Empleado.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\CLASE\\ConsoleAppNominaoo02\\ConsoleAppNominaoo02\\Empleado.cs",
+              "RelativeToolTip": "ConsoleAppNominaoo02\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:05:41.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Nomina.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\CLASE\\ConsoleAppNominaoo02\\ConsoleAppNominaoo02\\Nomina.cs",
+              "RelativeDocumentMoniker": "ConsoleAppNominaoo02\\Nomina.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\CLASE\\ConsoleAppNominaoo02\\ConsoleAppNominaoo02\\Nomina.cs",
+              "RelativeToolTip": "ConsoleAppNominaoo02\\Nomina.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:04:23.499Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
