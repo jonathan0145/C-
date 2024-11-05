@@ -1,0 +1,7 @@
+C:\Users\jonat\OneDrive\Desktop\C-\Ejercicios del tecnologo\CLASE\ConsoleAppNominaoo07\ConsoleAppNominaoo07\bin\Debug\ConsoleAppNominaoo07.exe.config
+C:\Users\jonat\OneDrive\Desktop\C-\Ejercicios del tecnologo\CLASE\ConsoleAppNominaoo07\ConsoleAppNominaoo07\bin\Debug\ConsoleAppNominaoo07.exe
+C:\Users\jonat\OneDrive\Desktop\C-\Ejercicios del tecnologo\CLASE\ConsoleAppNominaoo07\ConsoleAppNominaoo07\bin\Debug\ConsoleAppNominaoo07.pdb
+C:\Users\jonat\OneDrive\Desktop\C-\Ejercicios del tecnologo\CLASE\ConsoleAppNominaoo07\ConsoleAppNominaoo07\obj\Debug\ConsoleAppNominaoo07.csproj.AssemblyReference.cache
+C:\Users\jonat\OneDrive\Desktop\C-\Ejercicios del tecnologo\CLASE\ConsoleAppNominaoo07\ConsoleAppNominaoo07\obj\Debug\ConsoleAppNominaoo07.csproj.CoreCompileInputs.cache
+C:\Users\jonat\OneDrive\Desktop\C-\Ejercicios del tecnologo\CLASE\ConsoleAppNominaoo07\ConsoleAppNominaoo07\obj\Debug\ConsoleAppNominaoo07.exe
+C:\Users\jonat\OneDrive\Desktop\C-\Ejercicios del tecnologo\CLASE\ConsoleAppNominaoo07\ConsoleAppNominaoo07\obj\Debug\ConsoleAppNominaoo07.pdb

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\TALLER\\ConsolaAppNominaoo05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{313326E1-A573-4477-B284-B1F1F42D8B34}|ConsolaAppNominaoo05\\ConsolaAppNominaoo05.csproj|c:\\users\\jonat\\onedrive\\desktop\\c-\\ejercicios del tecnologo\\taller\\consolaappnominaoo05\\consolaappnominaoo05\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313326E1-A573-4477-B284-B1F1F42D8B34}|ConsolaAppNominaoo05\\ConsolaAppNominaoo05.csproj|solutionrelative:consolaappnominaoo05\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{313326E1-A573-4477-B284-B1F1F42D8B34}|ConsolaAppNominaoo05\\ConsolaAppNominaoo05.csproj|c:\\users\\jonat\\onedrive\\desktop\\c-\\ejercicios del tecnologo\\taller\\consolaappnominaoo05\\consolaappnominaoo05\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{313326E1-A573-4477-B284-B1F1F42D8B34}|ConsolaAppNominaoo05\\ConsolaAppNominaoo05.csproj|solutionrelative:consolaappnominaoo05\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\TALLER\\ConsolaAppNominaoo05\\ConsolaAppNominaoo05\\Venta.cs",
+              "RelativeDocumentMoniker": "ConsolaAppNominaoo05\\Venta.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\TALLER\\ConsolaAppNominaoo05\\ConsolaAppNominaoo05\\Venta.cs",
+              "RelativeToolTip": "ConsolaAppNominaoo05\\Venta.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T08:53:04.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calculadora.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\TALLER\\ConsolaAppNominaoo05\\ConsolaAppNominaoo05\\Calculadora.cs",
+              "RelativeDocumentMoniker": "ConsolaAppNominaoo05\\Calculadora.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\TALLER\\ConsolaAppNominaoo05\\ConsolaAppNominaoo05\\Calculadora.cs",
+              "RelativeToolTip": "ConsolaAppNominaoo05\\Calculadora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T08:51:35.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,6 +8,7 @@ namespace Ejercicio01_05_POO01
         /*quiero hacer que despues de haber digitado varios inmuebles me de el total de cada uno de los datos ingesados el total*/
         static void Main(string[] args)
         {
+            Venta[] ventas = new Venta[50];
             double areaT = 0;
             double costoM = 0;
             double costoI = 0;
