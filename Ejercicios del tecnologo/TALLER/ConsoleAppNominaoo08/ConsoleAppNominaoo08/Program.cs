@@ -13,7 +13,7 @@ namespace ConsoleAppNominaoo08
 
     public class Inmueble : IInmueble
     {
-        public static int Casa { get; private set; }
+        public int Casa { get; private set; }
         public double AreaTerreno { get; private set; }
         public double CostoPorMetroCuadrado {  get; private set; }
         public double CostoInfraestructura {  get; private set; }
@@ -21,7 +21,7 @@ namespace ConsoleAppNominaoo08
 
         public Inmueble(int casa, double areaTerreno, double costoPorMetroCuadrado, double costoInfraestructura, double porcentajeGanancia)
         {
-            Inmueble.Casa = casa;
+            Casa = casa;
             AreaTerreno = areaTerreno;
             CostoPorMetroCuadrado = costoPorMetroCuadrado;
             CostoInfraestructura = costoInfraestructura;
@@ -31,7 +31,6 @@ namespace ConsoleAppNominaoo08
         public double FormulaVenta()
         {
             double valorTerreno, valorTotal, ganancia, precioVenta;
-            ++Casa;
             PorcentajeGanancia /= 100;
             valorTerreno = AreaTerreno * CostoPorMetroCuadrado;
             valorTotal = valorTerreno + CostoInfraestructura;
@@ -74,29 +73,68 @@ namespace ConsoleAppNominaoo08
 
             using (var connection = new MySqlConnection(connectionString))
             {
-                connection.Open();/*-----------------------------------------------------------------------aqui quede-------------------------------------------------------------*/
-                string query = "SELECT horasTrabajadas, salarioPorHora FROM inmueble";
+                connection.Open();
+                string query = "SELECT areaTerreno, costoPorMetroCuadrado, costoInfraestructura, porcentajeGanancia FROM inmueble";
 
                 using (var command = new MySqlCommand(query, connection))
                 using (var reader = command.ExecuteReader())
                 {
                     while (reader.Read())
                     {
-                        double horasTrabajadas = reader.GetDouble("horasTrabajadas");
-                        double salarioPorHora = reader.GetDouble("salarioPorHora");
-                        total += horasTrabajadas * salarioPorHora;
+                        double areaTerreno = reader.GetDouble("areaTerreno");
+                        double costoPorMetroCuadrado = reader.GetDouble("costoPorMetroCuadrado");
+                        double costoInfraestructura = reader.GetDouble("costoInfraestructura");
+                        double porcentajeGanancia = reader.GetDouble("porcentajeGanancia");
+
+                        double valorTerreno, valorTotal, ganancia, precioVenta;
+
+                        porcentajeGanancia /= 100;
+                        valorTerreno = areaTerreno * costoPorMetroCuadrado;
+                        valorTotal = valorTerreno + costoInfraestructura;
+                        ganancia = valorTotal * porcentajeGanancia;
+                        precioVenta = valorTotal + ganancia;
+
+                        total += precioVenta;
                     }
                 }
             }
             return total;
         }
     }
-}
+
 
     internal class Program
     {
         static void Main(string[] args)
         {
+            CoordinadoVenta coordinadoVenta = new CoordinadoVenta();
+            int numeroInmuebles;
+            int casa = 0;
+
+            Console.WriteLine("Digite el número de Inmuebles: ");
+            numeroInmuebles = Int32.Parse(Console.ReadLine());
+
+            for (int i = 0; i < numeroInmuebles; i++)
+            {
+                ++casa;
+                Console.WriteLine("Digite el área del terreno: ");
+                double areaTerreno = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Digite el costo por metro cuadrado: ");
+                double costoPorMetroCuadrado = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Digite el costo de la infraestructura: ");
+                double costoInfraestructura = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Digite el porcentaje de ganancia en (%): ");
+                double porcentajeGanancia = double.Parse(Console.ReadLine());
+
+                IInmueble inmueble = new Inmueble(casa, areaTerreno, costoPorMetroCuadrado, costoInfraestructura, porcentajeGanancia);
+                coordinadoVenta.AgregarInmueble(inmueble);
+            }
+
+            Console.WriteLine("El valor total de los inmuebles es: " + coordinadoVenta.FormulaVentaTotal());
+            Console.ReadKey(true);
         }
     }
 }
