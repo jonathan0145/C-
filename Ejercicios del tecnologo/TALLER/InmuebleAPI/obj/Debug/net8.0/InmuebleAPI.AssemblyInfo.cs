@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InmuebleAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+412eb54e5405ff94710449a7e6387cfb043c475b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f84a6c672c79e974a6b3b75222e49f8f3dc013c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("InmuebleAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InmuebleAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
