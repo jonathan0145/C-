@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\BlazorAppAPI\\BlazorAppAPI.csproj": {}
+    "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\no funciona\\BlazorAppAPI\\BlazorAppAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\BlazorAppAPI\\BlazorAppAPI.csproj": {
+    "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\no funciona\\BlazorAppAPI\\BlazorAppAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\BlazorAppAPI\\BlazorAppAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\no funciona\\BlazorAppAPI\\BlazorAppAPI.csproj",
         "projectName": "BlazorAppAPI",
-        "projectPath": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\BlazorAppAPI\\BlazorAppAPI.csproj",
+        "projectPath": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\no funciona\\BlazorAppAPI\\BlazorAppAPI.csproj",
         "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\BlazorAppAPI\\obj\\",
+        "outputPath": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\no funciona\\BlazorAppAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

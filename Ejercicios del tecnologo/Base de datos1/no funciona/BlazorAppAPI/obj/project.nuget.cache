@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DnQTk34ttck=",
+  "dgSpecHash": "cJ4sLzEcdBs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\BlazorAppAPI\\BlazorAppAPI.csproj",
+  "projectFilePath": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\no funciona\\BlazorAppAPI\\BlazorAppAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jonat\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\jonat\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",

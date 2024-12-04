@@ -10,7 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
-//builder.Services.AddScoped<EmpleadoService>(sp => new EmpleadoService(sp.GetRequiredService<IHttpClientFactory>().Create Client("EmpleadoApi")));
+//builder.Services.AddScoped<EmpleadoService>(sp => new EmpleadoService(sp.GetRequiredService<IHttpClientFactory>().CreateClient("EmpleadoApi")));
 builder.Services.AddScoped<EmpleadoService>(sp =>
 {
     var httpClient = sp.GetRequiredService<IHttpClientFactory>().CreateClient("EmpleadoApi");

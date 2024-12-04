@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\WebAppApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F13C3B8-FB39-45F4-A43D-8765940D7BA5}|WebAppApi.csproj|c:\\users\\jonat\\onedrive\\desktop\\c-\\ejercicios del tecnologo\\base de datos1\\webappapi\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F13C3B8-FB39-45F4-A43D-8765940D7BA5}|WebAppApi.csproj|solutionrelative:services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2F13C3B8-FB39-45F4-A43D-8765940D7BA5}|WebAppApi.csproj|c:\\users\\jonat\\onedrive\\desktop\\c-\\ejercicios del tecnologo\\base de datos1\\webappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F13C3B8-FB39-45F4-A43D-8765940D7BA5}|WebAppApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{2F13C3B8-FB39-45F4-A43D-8765940D7BA5}|WebAppApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F13C3B8-FB39-45F4-A43D-8765940D7BA5}|WebAppApi.csproj|c:\\users\\jonat\\onedrive\\desktop\\c-\\ejercicios del tecnologo\\base de datos1\\webappapi\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F13C3B8-FB39-45F4-A43D-8765940D7BA5}|WebAppApi.csproj|solutionrelative:services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F13C3B8-FB39-45F4-A43D-8765940D7BA5}|WebAppApi.csproj|c:\\users\\jonat\\onedrive\\desktop\\c-\\ejercicios del tecnologo\\base de datos1\\webappapi\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F13C3B8-FB39-45F4-A43D-8765940D7BA5}|WebAppApi.csproj|solutionrelative:controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F13C3B8-FB39-45F4-A43D-8765940D7BA5}|WebAppApi.csproj|c:\\users\\jonat\\onedrive\\desktop\\c-\\ejercicios del tecnologo\\base de datos1\\webappapi\\model\\addupdateempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 294,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,33 +58,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\WebAppApi\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\WebAppApi\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "Controllers\\EmpleadoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:51:23.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\WebAppApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\WebAppApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T17:02:21.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\WebAppApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\WebAppApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-30T16:51:39.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AddUpdateEmpleado.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\WebAppApi\\Model\\AddUpdateEmpleado.cs",
               "RelativeDocumentMoniker": "Model\\AddUpdateEmpleado.cs",
@@ -93,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\WebAppApi\\Model\\Empleado.cs",
               "RelativeDocumentMoniker": "Model\\Empleado.cs",
@@ -106,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IEmpleadoService.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\WebAppApi\\Services\\IEmpleadoService.cs",
               "RelativeDocumentMoniker": "Services\\IEmpleadoService.cs",
@@ -119,13 +136,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EmpleadoService.cs",
               "DocumentMoniker": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\WebAppApi\\Services\\EmpleadoService.cs",
               "RelativeDocumentMoniker": "Services\\EmpleadoService.cs",
               "ToolTip": "C:\\Users\\jonat\\OneDrive\\Desktop\\C-\\Ejercicios del tecnologo\\Base de datos1\\WebAppApi\\Services\\EmpleadoService.cs",
               "RelativeToolTip": "Services\\EmpleadoService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAAEUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T15:47:19.442Z",
               "EditorCaption": ""

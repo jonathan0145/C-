@@ -1,0 +1,205 @@
+﻿@page "/empleados"
+@using BlazorAppAPI.Models
+@using BlazorAppAPI.Services
+@inject EmpleadoService EmpleadoService
+@inject HttpClient Http
+@inject IJSRuntime jsRuntime
+
+<h3>@(isEditMode ? "Editar Empleado" : "Agregar Nuevo Empleado")</h3>
+<table class="table">
+    <tbody>
+        <tr>
+            <td>
+                <label for="Identificacion">Identificación:</label>
+            </td>
+            <td>
+                <input id="Identificacion" class="form-control" @bind="nuevoEmpleado.Identificacion" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Nombre">Nombre:</label>
+            </td>
+            <td>
+                <input id="Nombre" class="form-control" @bind="nuevoEmpleado.Nombre" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="HorasTrabajadas">Horas Trabajadas:</label>
+            </td>
+            <td>
+                <input id="HorasTrabajadas" type="number" class="form-control" @bind="nuevoEmpleado.HorasTrabajadas" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="SueldoPorHora">Sueldo por Hora:</label>
+            </td>
+            <td>
+                <input id="SueldoPorHora" type="number" class="form-control" @bind="nuevoEmpleado.SueldoPorHora" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="IsActive">Activo:</label>
+            </td>
+            <td>
+                <input id="IsActive" type="checkbox" class="form- check-input" @bind="nuevoEmpleado.IsActive" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="text-center">
+                <button type="button" class="btn btn-primary mt-2" @onclick="GuardarEmpleado">
+                    @(isEditMode ? "Actualizar Empleado" : "Agregar Empleado")
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h3>Lista de Empleados</h3>
+@if (empleados == null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Identificación</th>
+                <th>Horas Trabajadas</th>
+                <th>Sueldo por Hora</th>
+                <th>Activo</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var empleado in empleados)
+            {
+                <tr>
+                    <td>@empleado.Id</td>
+                    <td>@empleado.Nombre</td>
+                    <td>@empleado.Identificacion</td>
+                    <td>@empleado.HorasTrabajadas</td>
+                    <td>@empleado.SueldoPorHora</td>
+                    <td>@(empleado.IsActive ? "Sí" : "No")</td>
+                    <td>
+                        <button class="btn btn-warning btn-sm" @onclick="() => EditEmpleado(empleado)">Editar</button>
+                        <button class="btn btn-danger btn-sm" @onclick="() => DeleteEmpleado(empleado.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Empleado>? empleados;
+    private AddUpdateEmpleado nuevoEmpleado = new AddUpdateEmpleado();
+    private int? editEmpleadoId = null;
+    private bool isEditMode = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        empleados = await EmpleadoService.GetEmpleadosAsync();
+        // empleados = await Http.GetJsonAsync<List<Empleado>>("https://tudominio/api/empleados");
+    }
+
+    // private async Task GuardarEmpleado()
+    // {
+    //     if (isEditMode && editEmpleadoId.HasValue)
+    //     {
+    //         // Actualizar empleado existente
+
+    //         var actualizado = await EmpleadoService.UpdateEmpleadoAsync(editEmpleadoId.Value, nuevoEmpleado);
+    //         if (actualizado != null)
+    //         {
+    //             empleados = await EmpleadoService.GetEmpleadosAsync();
+    //             LimpiarFormulario();
+    //         }
+    //         else
+    //         {
+    //             // Crear nuevo empleado
+    //             var creado = await EmpleadoService.CreateEmpleadoAsync(nuevoEmpleado);
+    //             if (creado != null)
+    //             {
+    //                 empleados = await EmpleadoService.GetEmpleadosAsync();
+    //                 LimpiarFormulario();
+    //             }
+    //         }
+    //     }
+    // }
+
+    private async Task GuardarEmpleado()
+    {
+        try
+        {
+            if (isEditMode && editEmpleadoId.HasValue)
+            {
+                // Actualizar empleado existente
+                var actualizado = await EmpleadoService.UpdateEmpleadoAsync(editEmpleadoId.Value, nuevoEmpleado);
+                if (actualizado != null)
+                {
+                    // Actualizar la lista de empleados (si es necesario)
+                    // ...
+                    // Mostrar mensaje de éxito
+                    await jsRuntime.InvokeVoidAsync("alert", "Empleado actualizado correctamente.");
+                }
+            }
+            else
+            {
+                // Crear nuevo empleado
+                var creado = await EmpleadoService.CreateEmpleadoAsync(nuevoEmpleado);
+                if (creado != null)
+                {
+                    // Agregar el nuevo empleado a la lista
+                    empleados.Add(creado);
+                    // Notificar a Blazor para que redibuje la UI
+                    StateHasChanged();
+                    // Mostrar mensaje de éxito
+                    await jsRuntime.InvokeVoidAsync("alert", "Empleado creado correctamente.");
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            // Mostrar un mensaje de error amigable al usuario
+            await jsRuntime.InvokeVoidAsync("alert", $"Error al guardar el empleado: {ex.Message}");
+        }
+    }
+
+    private async Task DeleteEmpleado(int id)
+    {
+        var success = await EmpleadoService.DeleteEmpleadoAsync(id);
+        if (success)
+        {
+            empleados = await EmpleadoService.GetEmpleadosAsync();
+        }
+    }
+
+    private void EditEmpleado(Empleado empleado)
+    {
+        // Cargar los datos del empleado seleccionado en el formulario
+        editEmpleadoId = empleado.Id; 
+        nuevoEmpleado = new AddUpdateEmpleado
+            {
+                Identificacion = empleado.Identificacion,
+                Nombre = empleado.Nombre,
+                HorasTrabajadas = empleado.HorasTrabajadas,
+                SueldoPorHora = empleado.SueldoPorHora,
+                IsActive = empleado.IsActive
+            };
+        isEditMode = true;
+    }
+
+    private void LimpiarFormulario()
+    {
+        // Reiniciar el formulario y salir del modo de edición
+        nuevoEmpleado = new AddUpdateEmpleado();
+        editEmpleadoId = null;
+        isEditMode = false;
+    }
+}
